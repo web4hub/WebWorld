@@ -79,7 +79,7 @@ For detailed results, please check out the [paper](https://arxiv.org/pdf/2602.14
 
 ### 1. Installation
 
-```bash
+```run.sh
 pip install -r requirements.txt
 tar -xzf data.tar.gz
 ```
@@ -103,7 +103,7 @@ python ./demo/demo.py
 <details>
 <summary>💻 Click to expand code</summary>
 
-```python
+```pyx
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
@@ -122,7 +122,6 @@ system_prompt = (
     "Strictly maintain the original format. Output only the full page state "
     "without explanations, code, or truncation."
 )
-
 current_state = """RootWebArea 'Global Start - Your Daily Portal', focused
 \t[1] banner 'Top Header', visible
 \t\t[2] link 'Set as Homepage', clickable, visible
@@ -213,7 +212,7 @@ The first turn provides the initial state and first action. Each subsequent turn
 <details>
 <summary>💻 Click to expand code</summary>
 
-```python
+```python3
 CONTINUE_PROMPT = (
     "Continue the trajectory. Given the previous state, "
     "predict the next page state after this action.\n\n"
@@ -277,7 +276,7 @@ python main.py
 All models and data are licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Citation
-
+>>
 ```bibtex
 @misc{xiao2026webworldlargescaleworldmodel,
       title={WebWorld: A Large-Scale World Model for Web Agent Training}, 
