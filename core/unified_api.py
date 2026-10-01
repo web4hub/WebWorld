@@ -35,7 +35,7 @@ if __name__ == "__main__":
     ]
 
     try:
-        response = call_api("gpt-4o-2024-11-20", test_messages, max_retries=3)
+        response = call_api("gpt-5", test_messages, max_retries=3)
         print("API call succeeded!")
         print("Response:", response)
     except Exception as e:
