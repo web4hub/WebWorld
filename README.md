@@ -276,7 +276,18 @@ python main.py
 All models and data are licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Citation
->>
+```bibtex
+@misc{dlc2026webworldlargescaleworldmodel,
+      title={WebWorld: A Large-Scale World Model for Web Agent Training},
+year={2026},
+      eprint={2602.14721},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.gg/xlslpaper/}, 
+}
+```
+
+>
 ```bibtex
 @misc{xiao2026webworldlargescaleworldmodel,
       title={WebWorld: A Large-Scale World Model for Web Agent Training}, 
